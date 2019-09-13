@@ -1,1 +1,23 @@
 // Navigation code here
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .center();
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    margin: 2%;
+    font-size: 4rem;
+  }
+  nav {
+    width: 40%;
+    font-size: 2rem;
+    color: #2a3048;
+    .spaceAround();
+    @media @phone {
+      width: 80%;
+      font-size: 1.5rem;
+    }
+  }
+}
