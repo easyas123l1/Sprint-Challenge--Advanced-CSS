@@ -173,8 +173,15 @@ p {
 .header nav {
   width: 40%;
   font-size: 2rem;
+  color: #2a3048;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .header nav {
+    width: 80%;
+    font-size: 1.5rem;
+  }
 }
 footer {
   color: #22283B;
@@ -185,6 +192,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .home .intro .header-image img {
+    max-width: 500px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -198,7 +210,7 @@ footer {
   width: 100%;
 }
 .home .space-images img {
-  width: 28%;
+  width: 90%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
