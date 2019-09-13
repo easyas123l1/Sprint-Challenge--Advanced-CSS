@@ -161,6 +161,9 @@ p {
   margin: 0 auto;
 }
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,6 +195,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 10%;
 }
 @media (max-width: 500px) {
   .home .intro .header-image img {
