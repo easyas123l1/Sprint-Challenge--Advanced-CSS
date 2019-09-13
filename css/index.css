@@ -242,7 +242,8 @@ footer {
   line-height: 3rem;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: #3c4361;
+  background-color: white;
+  color: #2a3048;
 }
 .home .walk .walk-img {
   width: 46%;

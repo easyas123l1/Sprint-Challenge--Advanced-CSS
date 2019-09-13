@@ -9,7 +9,7 @@
   justify-content: space-around;
 }
 
-.button(@background, @color, @hover) {
+.button(@background, @color) {
   width: 33%;
   height: 30px;
   background-color: @background;
@@ -23,6 +23,7 @@
   line-height: 3rem;
 
   &:hover {
-    background-color: @hover;
+    background-color: @color;
+    color: @background;
   }
 }
