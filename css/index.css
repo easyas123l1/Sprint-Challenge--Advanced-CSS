@@ -167,6 +167,7 @@ p {
   flex-direction: column;
 }
 .header h1 {
+  margin: 2%;
   font-size: 4rem;
 }
 .header nav {
@@ -226,6 +227,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 33%;
+  height: 30px;
+  background-color: #2a3048;
+  color: white;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 3rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #3c4361;
 }
 .home .walk .walk-img {
   width: 46%;
